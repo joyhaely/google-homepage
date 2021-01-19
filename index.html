@@ -2,42 +2,63 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Join a social network</title>
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Join this social network</h1>
+    <header>
+        <nav>
+            <ul>
+                <li>About</li>
+                <li>Store</li>
+            </ul>
+            <ul>
+                <li>Gmail</li>
+                <li>Images</li>
+            </ul>
+            <div class="container">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </nav>
+    </header>
 
     <main>
-      <div>
-        <form action="https://wp.zybooks.com/form-viewer.php" method="POST"
-              enctype="multipart/form-data">
+        <div>
+            <img src="images/googlelogo.png" alt="google logo">
+        </div>
+        <div>
+            <form>
+                <div>
+                    <input type="text" id="search">
+                </div>
 
-          <div>
-            <label for="fullName">Full name:</label>
-            <input type="text" name="fullName" id="fullName" required>
-          </div>
+                <div>
+                    <button type="submit">Google Search</button>
+                    <input type="button" value="I'm Feeling Lucky">
+                </div>
 
-          <div>
-              <label for="email">Email address:</label>
-              <input type="email" name="email" id="email" required>
-          </div>
-
-          <div>
-              <label for="about">About you:</label>
-              <textarea name="about" id="about" rows="3" cols="50"></textarea>
-          </div>
-
-          <div>
-            <label for="picture">Photo:</label>
-            <input type="file" name="picture" id="picture">
-          </div>
-
-          <div>
-          <input type="submit" value="Submit">
-          </div>
-        </form>
-      </div>
+            </form>
+        </div>
     </main>
+
+    <footer>
+        <div>
+            <ul>
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>How Search works</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </div>
+    </footer>
 
   </body>
 </html>
